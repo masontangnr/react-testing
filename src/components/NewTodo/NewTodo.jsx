@@ -20,7 +20,7 @@ const NewTodo = () => {
 			))}
 			<form onSubmit={handleSubmit(onSubmit)}>
 					<input id='todo' name='todo' type='text' {...register("todo")} />
-				<button>Submit</button>
+				<button id='submit-button'>Submit</button>
 			</form>
 		</div>
   )

@@ -33,6 +33,7 @@ test('it creates a new todo', () => {
   const todoCountElement = container.querySelector('.todoCount');
 
   // Create the todo.
+  
   fireEvent.change(inputElement, { target: { value: 'Feed my dog.' } });
   fireEvent.click(createButtonElement);
 
